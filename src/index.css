@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Merriweather&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    html {
+      font-family: Merriweather, merriweather, sans-serif;
+    }
+  }
+
 body {
     background-color: rgb(229, 229, 229);
+    /* background-color: rgb(219, 191, 155); */
 }
