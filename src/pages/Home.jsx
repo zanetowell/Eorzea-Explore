@@ -4,7 +4,7 @@ import Eorzea from '../assets/eorzea-map.jpeg'
 import Group from '../assets/ffxivgroup.png'
 import Gridania from '../assets/BlackShroud/Gridania.jpg'
 import Limsa from '../assets/LaNoscea/Limsa.jpg'
-import Uldah from '../assets/Thanalan/Uldah.jpg'
+import Uldah from '../assets/Thanalan/Uldah.jpeg'
 import Ishgard from '../assets/Coerthas/Ishgard.jpg'
 import { FiChevronsDown } from 'react-icons/fi'
 import VisitCard from '../components/VisitCard'
@@ -17,7 +17,7 @@ const Home = () => {
       {/* Container */}
       <div className={`max-w-7xl mx-auto flex-col justify-center items-center px-7 bg-gray-100 rounded-md pb-12 shadow-lg`}>
         {/* Welcome/Landing */}
-        <div className='flex justify-center items-end border-b-2'>
+        <div className='flex justify-center'>
           <p className='text-6xl font-cinzel text-yellow-500 font-extrabold text-center mt-4' id='welcome'>
             Welcome to Eorzea Adventurer!
           </p>
@@ -32,7 +32,7 @@ const Home = () => {
         <img src={Group} />
 
         <div className='text-center my-6 text-2xl font-bold'>
-          Eorzea awaits your arrival, beckoning you to embark on an extraordinary odyssey filled with excitement, danger, and unforgettable memories. Begin your adventure here, and let our website be your guide to the fantastical realm of Final Fantasy XIV's Eorzea!
+          Eorzea awaits your arrival, beckoning you to embark on an extraordinary odyssey filled with excitement, danger, and unforgettable memories. Pick a location to visit below and begin your adventure!
         </div>
 
         <div>
