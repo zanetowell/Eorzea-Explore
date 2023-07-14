@@ -2,10 +2,10 @@ import { Route, Routes } from 'react-router-dom'
 import TopBar from './components/TopBar'
 import './App.css'
 import Home from './pages/Home'
-import BlackShroud from './pages/BlackShroud'
-import LaNoscea from './pages/LaNoscea'
-import Thanalan from './pages/Thanalan'
-import Coerthas from './pages/Coerthas'
+import Gridania from './pages/Gridania'
+import Limsa from './pages/Limsa'
+import Uldah from './pages/Uldah'
+import Ishgard from './pages/Ishgard'
 
 
 function App() {
@@ -15,10 +15,10 @@ function App() {
       <TopBar />
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/blackshroud' element={<BlackShroud />}/>
-        <Route path='/lanoscea' element={<LaNoscea />}/>
-        <Route path='/thanalan' element={<Thanalan />}/>
-        <Route path='/coerthas' element={<Coerthas />}/>
+        <Route path='/gridania' element={<Gridania />}/>
+        <Route path='/limsa' element={<Limsa />}/>
+        <Route path='/uldah' element={<Uldah />}/>
+        <Route path='/ishgard' element={<Ishgard />}/>
       </Routes>
     </div>
   )

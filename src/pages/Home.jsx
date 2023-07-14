@@ -41,15 +41,15 @@ const Home = () => {
       </div>
 
       {/* Second Container */}
-      <div className={`max-w-7xl mx-auto flex-col justify-center items-center px-7 bg-gray-100 rounded-md pb-12 my-[5%] shadow-md`}>
+      <div className={`max-w-7xl mx-auto flex flex-col justify-center items-center px-7 bg-gray-100 rounded-md pb-12 my-[5%] shadow-md`}>
         <div className='my-4 flex flex-col items-center'>
-          <VisitCard pic={Gridania} name='Gridania' desc='The forest city-state of Eorzea, is a tranquil sanctuary nestled within the lush embrace of the Black Shroud.' to='/blackshroud'/>
+          <VisitCard pic={Gridania} name='Gridania' desc='The forest city-state of Eorzea, is a tranquil sanctuary nestled within the lush embrace of the Black Shroud.' to='/gridania'/>
 
-          <VisitCard pic={Limsa} name='Limsa Lominsa' desc='The maritime city-state of Eorzea, is a bustling hub of seafaring adventure and commerce in the heart of La Noscea.' to='/lanoscea'/>
+          <VisitCard pic={Limsa} name='Limsa Lominsa' desc='The maritime city-state of Eorzea, is a bustling hub of seafaring adventure and commerce in the heart of La Noscea.' to='/limsa'/>
 
-          <VisitCard pic={Uldah} name="Ul'dah" desc='The desert city-state of Eorzea, is a beacon of opulence rising from the arid landscape of Thanalan.' to='/thanalan'/>
+          <VisitCard pic={Uldah} name="Ul'dah" desc='The desert city-state of Eorzea, is a beacon of opulence rising from the arid landscape of Thanalan.' to='/uldah'/>
 
-          <VisitCard pic={Ishgard} name='Ishgard' desc='The secluded city-state of Eorzea, stands as a bastion of stone and ice amidst the frozen peaks of Coerthas.' to='/coerthas'/>
+          <VisitCard pic={Ishgard} name='Ishgard' desc='The secluded city-state of Eorzea, stands as a bastion of stone and ice amidst the frozen peaks of Coerthas.' to='/ishgard'/>
 
         </div>
       </div>

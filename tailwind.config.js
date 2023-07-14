@@ -19,6 +19,9 @@ export default {
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
       },
+      scale: {
+        '-100': '-1',
+      },
     },
   },
   plugins: [],
