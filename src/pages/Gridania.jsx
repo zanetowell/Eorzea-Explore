@@ -83,6 +83,22 @@ const Gridania = () => {
       <div className={`max-w-7xl mx-auto flex justify-start items-center px-7 bg-gray-100 rounded-md pb-12 my-[5%] shadow-md pt-4`}>
         <div className='ml-4 mt-4 w-full'>
           <h2 className='font-cinzel text-5xl border-b-2 mb-4'>Surrounding Areas </h2>
+          <ul className='text-xl space-y-4'>
+            <li className='text-3xl'>Central Shroud</li>
+              <span className='ml-4'>Woodland in the center of the forest that largely serves as a starting zone for players who begin in Gridania.</span>
+
+            <li className='text-3xl'>North Shroud</li>
+            <span className='ml-4'>Outskirts of the forest nearest to the highlands of Coerthas.</span>
+
+            <li className='text-3xl'>East Shroud</li>
+            <span className='ml-4'>An area of dense woodland and tangled groves where the sylph beast-tribe make their domain</span>
+
+            <li className='text-3xl'>South Shroud</li>
+            <span className='ml-4'>Wetlands extending southward from the edge of the Twelveswood.</span>
+
+            <li className='text-3xl'> Lavender Beds</li>
+            <span className='ml-4'>A series of lakeside estates set aside by the Order of the Twin Adder for adventurers.</span>
+          </ul>
         </div>
       </div>
 
