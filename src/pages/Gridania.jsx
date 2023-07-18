@@ -1,7 +1,13 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import GFlag from '../assets/BlackShroud/Gridania/Gridania-flag.png'
+import G1 from '../assets/BlackShroud/Gridania/gridania_001.jpg'
+import G2 from '../assets/BlackShroud/Gridania/gridania_002.jpeg'
+import G3 from '../assets/BlackShroud/Gridania/gridania_003.jpeg'
+import G4 from '../assets/BlackShroud/Gridania/gridania_004.jpeg'
 import { FiList } from 'react-icons/fi'
+import Carousel from '../components/Carousel'
+
 
 const Gridania = () => {
   const [seeContents, setSeeContents] = useState()
@@ -106,6 +112,9 @@ const Gridania = () => {
       <div className={`max-w-7xl mx-auto flex justify-start items-center px-7 bg-gray-100 rounded-md pb-12 my-[5%] shadow-md pt-4`}>
         <div className='ml-4 mt-4 w-full'>
           <h2 className='font-cinzel text-5xl border-b-2 mb-4'>Gallery </h2>
+          <Carousel 
+            slides={[G1, G2, G3, G4]}
+          />
         </div>
       </div>
 
