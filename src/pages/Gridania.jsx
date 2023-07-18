@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import GFlag from '../assets/BlackShroud/Gridania-flag.png'
+import { Link } from 'react-router-dom'
+import GFlag from '../assets/BlackShroud/Gridania/Gridania-flag.png'
 import { FiList } from 'react-icons/fi'
 
 const Gridania = () => {
@@ -17,7 +18,7 @@ const Gridania = () => {
 
 
   return (
-    <div className='w-full h-[200vh] mt-[5%]' id='gridania'>
+    <div className='w-full h-[250vh] mt-[5%]' id='gridania'>
       <div className={`max-w-7xl mx-auto flex-col justify-center items-center px-7 bg-gray-100 rounded-md pb-12 shadow-lg`}>
         {/* City Banner */}
         <div className='pt-6 flex items-center justify-around'>
@@ -31,18 +32,18 @@ const Gridania = () => {
 
         {/* Table of Contents */}
         <div className='flex flex-col mt-4'>
-          <div className='items-center w-40 pt-2 border border-black  inline-flex'>
+          <div className='items-center w-[175px] pt-2 border border-black  inline-flex'>
             <FiList onClick={handleClick} className='ml-2 cursor-pointer'/>
             <h2 className='ml-2'>Contents</h2>
           </div>
             <div className={!seeContents 
-              ? 'flex pl-6 py-2  w-40 border border-t-0 border-black'
+              ? 'flex pl-6 py-2  w-[175px] border border-t-0 border-black'
               : 'hidden'
             }>
               <ul className='list-decimal'>
                 <li>About</li>
                 <li>Landmarks</li>
-                <li>Nearby Areas</li>
+                <li>Surrounding Areas</li>
                 <li>Gallery</li>
               </ul>
             </div>
@@ -99,6 +100,12 @@ const Gridania = () => {
             <li className='text-3xl'> Lavender Beds</li>
             <span className='ml-4'>A series of lakeside estates set aside by the Order of the Twin Adder for adventurers.</span>
           </ul>
+        </div>
+      </div>
+
+      <div className={`max-w-7xl mx-auto flex justify-start items-center px-7 bg-gray-100 rounded-md pb-12 my-[5%] shadow-md pt-4`}>
+        <div className='ml-4 mt-4 w-full'>
+          <h2 className='font-cinzel text-5xl border-b-2 mb-4'>Gallery </h2>
         </div>
       </div>
 
