@@ -113,7 +113,20 @@ const Gridania = () => {
         <div className='ml-4 mt-4 w-full'>
           <h2 className='font-cinzel text-5xl border-b-2 mb-4'>Gallery </h2>
           <Carousel 
-            slides={[G1, G2, G3, G4]}
+            slides={[
+              {
+                url: 'https://cdn.discordapp.com/attachments/439179285803302912/1131277543773851669/image.png'
+              },
+              {
+                url: 'https://cdn.discordapp.com/attachments/439179285803302912/1131277544449114173/image.png'
+              },
+              {
+                url: 'https://cdn.discordapp.com/attachments/439179285803302912/1131277542112907354/image.png'
+              },
+              {
+                url: 'https://cdn.discordapp.com/attachments/439179285803302912/1131277545258635395/image.png'
+              }
+            ]}
           />
         </div>
       </div>
